@@ -1,4 +1,4 @@
-package KW1_STD2_Figures;
+package KW2_STD2_Figures;
 
 public class Shape {
 
