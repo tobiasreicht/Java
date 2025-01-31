@@ -21,7 +21,7 @@ public class bankomat {
             else if (input.equals("2")) {
                 System.out.println("Geben Sie ein, wieviel Sie abheben möchten:");
                 int moneyOutput = scanner.nextInt();
-                Kontostand += moneyOutput;
+                Kontostand -= moneyOutput;
                 System.out.println("Ihr Kontostand beträgt " + Kontostand);
                 scanner.nextLine();
             }
